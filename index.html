@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iron Man Jarvis Reveal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="hero-container" id="hero-container">
+      <img src="img/rdj.png" class="base-img" alt="Robert Downey Jr." />
+
+      <div class="iron-mask-layer" id="iron-mask-layer"></div>
+
+      <div class="hud-circle" id="hud-circle">
+        <div class="hud-ring"></div>
+        <div class="hud-center-dot"></div>
+        <div class="hud-info top-left">TARGET ACQUIRED</div>
+        <div class="hud-info top-right">SYSTEM: ONLINE</div>
+        <div class="hud-info bottom-left">Status: ONLINE</div>
+        <div class="hud-info bottom-right">POWER: 100%</div>
+        <div class="hud-scan-line"></div>
+      </div>
+
+      <div class="info-text">HOVER FOR DIAGNOSTICS</div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
